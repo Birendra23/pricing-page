@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link rel="stylesheet" href="main.css">
+    <title>pricing page</title>
+</head>
+<body>
+   <div>
+    <!-- nav bar -->
+    <div class="bg-slate-700 font-ggSanas">
+        <!-- <!-nav bar-  --> 
+      <nav class="text-[#fff] container max-w-[1080px]  mx-auto
+      flex justify-between h-[72px] items-center xl:px-0 px-7">
+        <div>
+          <!-- logo -->
+          <img src="./images/image3.png" class="rounded-full" width="50px" height="50px" alt="">
+        </div>
+            <!-- nav options -->
+           <div class="hidden md:flex gap-5 font-ggSans font-[600] font-[16px]">
+             <a href="#" class="capitalize hover:underline">Explore</a>
+             <a href="#" class="capitalize hover:underline">Extra</a>
+             <a href="#" class="capitalize hover:underline">Discover</a>
+             <a href="#" class="capitalize hover:underline">Security</a>
+             <a href="#" class="capitalize hover:underline">Support</a>
+             <a href="#" class="capitalize hover:underline">Blog</a>
+             <a href="#" class="capitalize hover:underline">Careers</a>
+           </div>
+           <!--nav button  -->
+           <div class="hidden md:flex">
+              <a href="#">
+                  <button class="bg-slate-900 px-4 self-center p-2 rounded-full text-[#fff]
+                   font-bold text-[15px] hover:text-[blue]">Login
+                  </button>
+              </a>
+           </div>
+            <!-- hamburgent icon -->
+            <div class="md:hidden block">
+                <i class=""><img src="./images/menu-bar.png" width="45px" height="45px"></i>
+            </div>
+      </nav>
+    </div>
+     
+     <h1 class=" bg-slate font-black text-3xl  flex items-center justify-center -mt-1 pt-3 pb-1 ">
+         Details Of Courses
+     </h1>
+     <!-- card section -->
+     <div class="bg-slate-300  pt-1 pb-2 grid grid-cols-1 md:grid-cols-3 items-center pl-2 pr-2 justify-center text-black gap-3">
+        <!-- card1 -->
+          <div class="  border bg-slate-500 flex flex-col items-center justify-center gap-2 rounded-sm border-black ">
+            <img src="images/image1.png" alt="" class=" w-full transition-all duration-200"  width="400px" height="400px">
+             <p class="font-mono text-3xl">Video shoot</p>
+             <p class="text-xl">$60 <span class="text-sm">/month</span> <span class="line-through opacity-60">$120 </span></p>
+                <!-- bvutton -->
+                <button class=" flex items-center w-full md:w-fit   font-mullish bg-black text-white rounded-md font-bold
+               hover:bg-blue-800 transition-all duration-200 py-[14px] px-[18px] mb-3">Buy Now
+                </button>
+          </div>
+        <!-- card2 -->
+        <div class="border bg-slate-500 flex flex-col items-center justify-center gap-2 rounded-sm border-black">
+            <img src="images/image0.png" alt="" class="object-cover w-full" width="410px" height="410px">
+             <p class="font-mono text-3xl">Video Editor</p>
+             <p class="text-xl">$80 <span class="text-sm">/month</span> <span class="line-through opacity-60">$150 </span></p>
+                <!-- bvutton -->
+                <button class=" flex items-center w-full md:w-fit   font-mullish bg-black text-white rounded-md font-bold
+               hover:bg-blue-800 transition-all duration-200 py-[14px] px-[18px] mb-3">Buy Now
+                </button>
+          </div>
+        <!-- card3 -->
+        <div class="border bg-slate-500 flex flex-col items-center justify-center gap-2 rounded-sm border-black">
+            <img src="images/image2.png" alt="" class="object-cover w-full" width="420px" height="420px">
+             <p class="font-mono text-3xl">VFX Designer</p>
+             <p class="text-xl">$100  <span class="text-sm">/month</span> <span class="line-through opacity-60">$200 </span></p>
+                <!-- bvutton -->
+                <button class=" flex items-center w-full md:w-fit   font-mullish bg-black text-white rounded-md font-bold
+               hover:bg-blue-800 transition-all duration-200 py-[14px] px-[18px] mb-3">Buy Now
+                </button>
+          </div>
+
+
+     </div>
+     <!-- footer -->
+      <div class="w-full bg-slate-200 pt-2 pb-2 flex flex-col items-center justify-center">
+        <p class="flex text-blue-400"><img src="./images/image.png" class="" width="40px" height="40px" alt="">Copyright. All Rights Reserved</p>
+        <div class="text-blue-400"> Privacy Policy</div>
+      </div>
+   </div>
+</body>
+</html>
